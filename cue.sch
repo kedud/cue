@@ -29,8 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:dpdt_switch_4u
-LIBS:Cue-cache
+LIBS:cue-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -106,10 +105,14 @@ P 6350 950
 F 0 "D1" H 6350 1050 50  0000 C CNN
 F 1 "LED" H 6350 850 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm" H 6350 950 50  0001 C CNN
-F 3 "" H 6350 950 50  0000 C CNN
-F 4 "0" H 6350 950 60  0001 C CNN "Mfg_Part_No"
-F 5 "Digikey" H 6350 950 60  0001 C CNN "Distributor"
-F 6 "0402" H 6350 950 60  0001 C CNN "Package"
+F 3 "http://www.mouser.com/ds/2/244/SSL-LX5093PC-1137578.pdf" H 6350 950 50  0001 C CNN
+F 4 "SSL-LX5093PC" H 6350 950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6350 950 60  0001 C CNN "Distributor"
+F 6 "696-SSL-LX5093PC" H 6350 950 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 6350 950 60  0001 C CNN "Package"
+F 8 "DEL standard - Trou traversant Pink Clear 2200mcd" H 6350 950 60  0001 C CNN "Description"
+F 9 "Lumex" H 6350 950 60  0001 C CNN "Manufacturer"
+F 10 "SSL-LX5093PC" H 6350 950 60  0001 C CNN "Mfg_Part_No"
 	1    6350 950 
 	-1   0    0    1   
 $EndComp
@@ -614,7 +617,13 @@ P 6350 3350
 F 0 "D2" H 6350 3450 50  0000 C CNN
 F 1 "LED" H 6350 3250 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm" H 6350 3350 50  0001 C CNN
-F 3 "" H 6350 3350 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/423/LTH5MM12VFR4700-1099608.pdf" H 6350 3350 50  0001 C CNN
+F 4 "LTH5MM12VFR4700" H 6350 3350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 6350 3350 60  0001 C CNN "Distributor"
+F 6 "593-LTH5MM12VFR4700" H 6350 3350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 6350 3350 60  0001 C CNN "Package"
+F 8 "DEL standard - Trou traversant 5mm Thru Hole LED 592nm for 12VDC" H 6350 3350 60  0001 C CNN "Description"
+F 9 "VCC" H 6350 3350 60  0001 C CNN "Manufacturer"
 	1    6350 3350
 	-1   0    0    1   
 $EndComp
@@ -785,7 +794,13 @@ P 9950 950
 F 0 "D3" H 9950 1050 50  0000 C CNN
 F 1 "LED" H 9950 850 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm" H 9950 950 50  0001 C CNN
-F 3 "" H 9950 950 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/244/SSL-LX5093TC-1137433.pdf" H 9950 950 50  0001 C CNN
+F 4 "SSL-LX5093TC" H 9950 950 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 9950 950 60  0001 C CNN "Distributor"
+F 6 "696-SSL-LX5093TC" H 9950 950 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 9950 950 60  0001 C CNN "Package"
+F 8 "DEL standard - Trou traversant Turquoise Clear 2200mcd" H 9950 950 60  0001 C CNN "Description"
+F 9 "Lumex" H 9950 950 60  0001 C CNN "Manufacturer"
 	1    9950 950 
 	-1   0    0    1   
 $EndComp
@@ -958,7 +973,13 @@ P 9950 3350
 F 0 "D4" H 9950 3450 50  0000 C CNN
 F 1 "LED" H 9950 3250 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm" H 9950 3350 50  0001 C CNN
-F 3 "" H 9950 3350 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/90/C503B%20RAS%20RAN%20AAS%20AAN%20RBS%20RBN%20ABS%20ABN%20RCS%20RCN%20ACS%20-269115.pdf" H 9950 3350 50  0001 C CNN
+F 4 "C503B-RAN-CZ0C0AA1" H 9950 3350 60  0001 C CNN "Mfg_Part_#"
+F 5 "Mouser" H 9950 3350 60  0001 C CNN "Distributor"
+F 6 "941-C503B-RAN-CZ0C0AA1" H 9950 3350 60  0001 C CNN "Distributor Part #"
+F 7 "2-THT" H 9950 3350 60  0001 C CNN "Package"
+F 8 "DEL standard - Trou traversant Red Round" H 9950 3350 60  0001 C CNN "Description"
+F 9 "Cree Inc." H 9950 3350 60  0001 C CNN "Manufacturer"
 	1    9950 3350
 	-1   0    0    1   
 $EndComp

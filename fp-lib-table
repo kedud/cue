@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name mixer_switch)(type KiCad)(uri "$(KISYSMOD)mixer_switch.pretty")(options "")(descr ""))
+  (lib (name 4PDT)(type KiCad)(uri "$(KIPRJMOD)/4PDT.pretty")(options "")(descr ""))
+)

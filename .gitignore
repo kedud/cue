@@ -19,6 +19,8 @@ _autosave-*
 
 # 3D files
 *.wrl
+*.step
+*.FCStd
 
 # Exported BOM files
 *.xml
